@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Merriweather", serif;
+  font-family: Merriweather, serif;
   line-height: 1.5;
 }
 
@@ -17,10 +17,11 @@ body {
   margin: 0;
   padding: 0;
 }
- h1 {
-   font-size: 2rem;
-   margin: 0;
- }
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
 
 h2 {
   font-size: 1.125rem;
@@ -42,8 +43,8 @@ div {
 
 ul {
   display: flex;
-  border-top: 3px solid #a63f38;
-  border-bottom: 3px solid #a63f38;
+  border-top: 1px solid #a63f38;
+  border-bottom: 1px solid #a63f38;
   justify-content: space-around;
   padding: 0;
   margin: 0;
@@ -63,10 +64,10 @@ a {
   color: #fff;
 }
 
-li:hover {
+a:hover {
   background-color: #a63f38;
 }
 
 .br {
-  border-right: 3px solid #a63f38;
+  border-right: 1px solid #a63f38;
 }
