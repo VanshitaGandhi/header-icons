@@ -1,7 +1,72 @@
 html {
   box-sizing: border-box;
+  font-family: "Merriweather", serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: #d05c2e;
+  margin: 0;
+  padding: 0;
+}
+ h1 {
+   font-size: 2rem;
+   margin: 0;
+ }
+
+h2 {
+  font-size: 1.125rem;
+}
+
+img {
+  display: block;
+  width: 40px;
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+  padding: .5em 0;
+  color: #fff;
+  justify-content: space-around;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  border-top: 3px solid #a63f38;
+  border-bottom: 3px solid #a63f38;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  list-style-type: none;
+  align-items: center;
+  width: 33.33%;
+  padding: .5em 0;
+  margin: 0;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+li:hover {
+  background-color: #a63f38;
+}
+
+.br {
+  border-right: 3px solid #a63f38;
 }
